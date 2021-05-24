@@ -21,5 +21,5 @@ auxiliar = positivos.index(maior)
 nomes = cidades[auxiliar]
 print(f'O cidade cadastrada com o maior número de óbitos foi {nomes}')
 
-print(f'O percentual de óbitos da primeira cidade cadastrada foi de {(obitos[1]/sum(obitos)*100)}%')
+print(f'O percentual de óbitos da primeira cidade cadastrada foi de {(obitos[0]/sum(obitos)*100)}%')
 
